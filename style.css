@@ -71,7 +71,7 @@ a {
     grid-area: header-left;
     background-color: #C7DDEA;
     height: 544ox;
-    width: 501px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -85,7 +85,7 @@ a {
 
 .header-left p {
     font-size: 0.9rem;
-    line-height: 24px;
+    line-height: 1.5rem;
     margin-right: 8rem;
     margin-left: 6rem;
     font-weight: 500;
@@ -97,8 +97,8 @@ a {
     text-decoration: none;
     color: black;
     background-color: white;
-    width: 131px;
-    height: 39px;
+    width: 8.2rem;
+    height: 2.438rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -113,8 +113,7 @@ a {
 }
 
 img.logo1 {
-    width: 286px;
-    margin-top: auto;
+    width: 17.875rem;
     margin-right: 1rem;
     position: absolute;
     right: 0;
@@ -124,8 +123,8 @@ img.logo1 {
 .header-right-top {
     grid-area: header-right-top;
     background-color: #F17949;
-    height: 272px;
-    width: 501px;
+    height: 17rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,8 +143,8 @@ img.logo1 {
 .header-right-bottom {
     grid-area: header-right-bottom;
     background-color: #FFB939;
-    height: 272px;
-    width: 501px;
+    height: 17rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +167,7 @@ img.logo1 {
 nav {
     grid-area: nav;
     width: 100%;
-    height: 70px;
+    height: 4.5rem;
     display: flex;
     justify-content: center;
 }
@@ -197,9 +196,6 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-
-
-
 /********************************/
 
 /************* MAIN *************/
@@ -213,7 +209,7 @@ ul li a:hover {
 
 .main-left {
     width: 50%;
-    height: 612px;
+    height: 38.25rem;
     display: flex;
     flex-direction: column;
     background-color: #A9A19E;
@@ -229,8 +225,8 @@ ul li a:hover {
     text-decoration: none;
     color: black;
     background-color: white;
-    width: 131px;
-    height: 39px;
+    width: 8.2rem;
+    height: 2.438rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,9 +237,9 @@ ul li a:hover {
 
 .main-right {
     width: 50%;
-    height: 612px;
+    height: 38.25rem;
     padding: 6rem;
-    line-height: 24px;
+    line-height: 1.5rem;
     background-color: #A9A19E;
 
 }
@@ -251,7 +247,7 @@ ul li a:hover {
 .main-right p {
     font-weight: 500;
     font-size: 0.875rem;
-    line-height: 24px;
+    line-height: 1.5rem;
     color: #000000;
     opacity: 60%;
 }
@@ -263,7 +259,7 @@ ul li a:hover {
 .main-bottom {
     background-color: #FAB131;
     width: 100%;
-    height: 680px;
+    height: 42.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,7 +277,7 @@ ul li a:hover {
 .main-bottom p {
    font-size: 0.875rem;
    font-weight: 500; 
-   line-height: 20px;
+   line-height: 1.25rem;
    padding: 1rem;
    text-align: center;
    color: #000000;
@@ -304,8 +300,8 @@ ul li a:hover {
 }
 
 .cards-container > * {
-    width: 256px;
-    height: 308px;
+    width: 16rem;
+    height: 19.25rem;
     background-color: white;
     border-radius: 0.5rem;
     padding-right: 1.5rem;
@@ -323,9 +319,9 @@ ul li a:hover {
 }
 
 .card1 .logo-card1-container {
-    width: 236px;
-    height: 150px;
-    border-radius: 4px;
+    width: 14.75rem;
+    height: 9.375rem;
+    border-radius: 0.25rem;
     background-color: #C7DDEA;
     display: flex;
     align-items: flex-end;
@@ -341,7 +337,7 @@ ul li a:hover {
 .card1 p {
     font-size: 0.688rem;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 1.125rem;
     color: #000000;
     opacity: 40%;
     margin-top: 1rem;
@@ -352,9 +348,9 @@ ul li a:hover {
 }
 
 .card2 .logo-card2-container {
-    width: 236px;
-    height: 150px;
-    border-radius: 4px;
+    width: 14.75rem;
+    height: 9.375rem;
+    border-radius: 0.25rem;
     background-color: #FAB131;
     display: flex;
     align-items: flex-end;
@@ -370,7 +366,7 @@ ul li a:hover {
 .card2 p {
     font-size: 0.688rem;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 1.125rem;
     color: #000000;
     opacity: 40%;
     margin-top: 1rem;
@@ -382,9 +378,9 @@ ul li a:hover {
 
 
 .card3 .logo-card3-container {
-    width: 236px;
-    height: 150px;
-    border-radius: 4px;
+    width: 14.75rem;
+    height: 9.375rem;
+    border-radius: 0.25rem;
     background-color: #F17949;
     display: flex;
     align-items: flex-end;
@@ -400,7 +396,7 @@ ul li a:hover {
 .card3 p {
     font-size: 0.688rem;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 1.125rem;
     color: #000000;
     opacity: 40%;
     margin-top: 1rem;
@@ -410,11 +406,14 @@ ul li a:hover {
 
 /********** SECTION - BOXES **************/
 
+.box1,
 .box2,
 .box3,
 .box4,
 .box5,
 .box6 {
+    width: 334px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -427,26 +426,19 @@ ul li a:hover {
 .box1 {
     grid-area: box1;
     background-color: #C7DDEA;
-    width: 334px;
-    height: 340px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    font-weight: 900;
+}
+
+.box1 h1 {
     opacity: 80%;
-    text-align: center;
 }
 
 .box2 {
     grid-area: box2;
     background-color: #FFFFFF;
-    width: 334px;
-    height: 340px;  
 }
+
  .box2 p {
     margin: 4rem;
-    color: #000000;
     opacity: 70%;
  }
 
@@ -460,8 +452,6 @@ ul li a:hover {
 .box3 {
     grid-area: box3;
     background-color: #EBEBEB;
-    width: 334px;
-    height: 340px;  
 }
 
 .box3 h2 {
@@ -472,15 +462,12 @@ ul li a:hover {
 }
 
 .box3 p {
-    color: #000000;
     opacity: 70%;
 }
 
 .box4 {
     grid-area: box4;
-    background-color: white;
-    width: 334px;
-    height: 340px;  
+    background-color: white; 
 }
 
 .box4 h2 {
@@ -491,16 +478,13 @@ ul li a:hover {
 }
 
 .box4 p {
-    color: #000000;
     opacity: 70%;
     margin: 3rem;
 }
 
 .box5 {
     grid-area: box5;
-    background-color: #F17949;
-    width: 334px;
-    height: 340px;  
+    background-color: #F17949; 
 }
 
 .box5 h2 {
@@ -511,15 +495,12 @@ ul li a:hover {
 }
 
 .box5 p {
-    color: #000000;
     opacity: 70%;
 }
 
 .box6 {
     grid-area: box6;
-    background-color: white;
-    width: 334px;
-    height: 340px;  
+    background-color: white; 
 }
 
 .box6 h2 {
@@ -530,7 +511,6 @@ ul li a:hover {
 }
 
 .box6 p {
-    color: #000000;
     opacity: 70%;
 }
 
@@ -542,13 +522,12 @@ ul li a:hover {
 
 .footer-top {
     background-color: #A9A19E;
-    height: 68px;
+    height: 4.25rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
     position: relative;
 }
 
@@ -568,9 +547,8 @@ ul li a:hover {
 
 .footer-bottom {
     width: 100%;
-    height: 340px;
+    height: 21.25rem;
     background-color: #777574;
-    border: 1px black;
 }
 
 /*******************************/
