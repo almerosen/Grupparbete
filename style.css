@@ -18,14 +18,14 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
-    "header-left header-left header-left header-right-top header-right-top header-right-top"
+    "header-left header-left header-left header-right-top    header-right-top    header-right-top"
     "header-left header-left header-left header-right-bottom header-right-bottom header-right-bottom"
-    "nav nav nav nav nav nav"
-    "main-top main-top main-top main-top main-top main-top"
-    "main-bottom main-bottom main-bottom main-bottom main-bottom main-bottom"
-    "box1 box1 box2 box2 box3 box3"
-    "box4 box4 box5 box5 box6 box6"
-    "footer footer footer footer footer footer"
+    "nav         nav         nav         nav                 nav                 nav"
+    "main-top    main-top    main-top    main-top            main-top            main-top"
+    "main-bottom main-bottom main-bottom main-bottom         main-bottom         main-bottom"
+    "box1        box1        box2        box2                box3                box3"
+    "box4        box4        box5        box5                box6                box6"
+    "footer      footer      footer      footer              footer              footer"
 }
 
 /*********** GENERAL CSS *************/
