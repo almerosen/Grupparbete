@@ -70,7 +70,7 @@ a {
 .header-left {
     grid-area: header-left;
     background-color: #C7DDEA;
-    height: 544ox;
+    height: 544px;
     width: 100%;
     display: flex;
     flex-direction: column;
