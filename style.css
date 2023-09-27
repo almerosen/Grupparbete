@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Frank+Ruhl+Libre&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "header-left header-left header-left header-right-top header-right-top header-right-top"
+    "header-left header-left header-left header-right-bottom header-right-bottom header-right-bottom"
+    "nav nav nav nav nav nav"
+    "main-top main-top main-top main-top main-top main-top"
+    "main-bottom main-bottom main-bottom main-bottom main-bottom main-bottom"
+    "box1 box1 box2 box2 box3 box3"
+    "box4 box4 box5 box5 box6 box6"
+    "footer footer footer footer footer footer"
+}
+
+/*********** GENERAL CSS *************/
+
+h1 {
+    font-family: 'frank ruhl libre', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h4 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'fira sans', sans-serif;
+}
+
+a {
+    font-family:'fira sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+/***********************************/
+
+/************** HEADER *************/
+
+.header-left {
+    grid-area: header-left;
+    background-color: #C7DDEA;
+    height: 544ox;
+    width: 501px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-left h1 {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.header-left p {
+    font-size: 0.9rem;
+    line-height: 24px;
+    margin-right: 8rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    color: #000000;
+    opacity: 60%;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 131px;
+    height: 39px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.header-left .span-white {
+    color: white;
+    opacity: 100%;
+}
+
+img.logo1 {
+    width: 286px;
+    margin-top: auto;
+    margin-right: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header-right-top {
+    grid-area: header-right-top;
+    background-color: #F17949;
+    height: 272px;
+    width: 501px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-top p {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.header-right-top h3 {
+    color: white;
+}
+
+.header-right-bottom {
+    grid-area: header-right-bottom;
+    background-color: #FFB939;
+    height: 272px;
+    width: 501px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-bottom p {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.header-right-bottom h3 {
+    color: white;
+}
+
+/***************************/
+
+/*********** NAV ***********/
+
+nav {
+    grid-area: nav;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*margin-top: 1.5rem;
+    margin-bottom: 1.5rem;*/
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.75rem;
+    font-family: 'fira sans';
+    margin: 3rem;
+    opacity: 40%;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/********************************/
+
+/************* MAIN *************/
+
+.main-top-container {
+    grid-area: main-top;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main-left {
+    width: 50%;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    background-color: #A9A19E;
+
+}
+
+.main-left h1 {
+    color: white;
+    padding: 5rem;
+}
+
+.main-left a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 131px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+    
+
+.main-right {
+    width: 50%;
+    height: 612px;
+    padding: 6rem;
+    line-height: 24px;
+    background-color: #A9A19E;
+
+}
+
+.main-right p {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.main-bottom-container {
+    grid-area: main-bottom;
+}
+
+.main-bottom {
+    background-color: #FAB131;
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.main-bottom h1 {
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.main-bottom p {
+   font-size: 0.875rem;
+   font-weight: 500; 
+   line-height: 20px;
+   padding: 1rem;
+   text-align: center;
+   color: #000000;
+   opacity: 60%;
+   
+}
+
+/********* CARDS **********/
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    gap: 2rem;
+    position: absolute;
+    top: 100%;
+    transform: translate(0, -50%);
+}
+
+.cards-container > * {
+    width: 256px;
+    height: 308px;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card1 {
+    position: relative;
+}
+
+.card1 .logo-card1-container {
+    width: 236px;
+    height: 150px;
+    border-radius: 4px;
+    background-color: #C7DDEA;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: -1.5rem;
+}
+
+.card1 h4 {
+    margin-top: 6rem;
+}
+
+.card1 p {
+    font-size: 0.688rem;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+    opacity: 40%;
+    margin-top: 1rem;
+}
+
+.card2 {
+    position: relative;
+}
+
+.card2 .logo-card2-container {
+    width: 236px;
+    height: 150px;
+    border-radius: 4px;
+    background-color: #FAB131;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: -1.5rem;
+}
+
+.card2 h4 {
+    margin-top: 6rem;
+}
+
+.card2 p {
+    font-size: 0.688rem;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+    opacity: 40%;
+    margin-top: 1rem;
+}
+
+.card3 {
+    position: relative;
+}
+
+
+.card3 .logo-card3-container {
+    width: 236px;
+    height: 150px;
+    border-radius: 4px;
+    background-color: #F17949;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: -1.5rem;
+}
+
+.card3 h4 {
+    margin-top: 6rem;
+}
+
+.card3 p {
+    font-size: 0.688rem;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+    opacity: 40%;
+    margin-top: 1rem;
+}
+
+/*************************/
+
+/********** SECTION - BOXES **************/
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.063rem;
+    text-align: center;
+    position: relative;
+}
+
+.box1 {
+    grid-area: box1;
+    background-color: #C7DDEA;
+    width: 334px;
+    height: 340px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: 900;
+    opacity: 80%;
+    text-align: center;
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: #FFFFFF;
+    width: 334px;
+    height: 340px;  
+}
+ .box2 p {
+    margin: 4rem;
+    color: #000000;
+    opacity: 70%;
+ }
+
+.box2 h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 40%;
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: #EBEBEB;
+    width: 334px;
+    height: 340px;  
+}
+
+.box3 h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 40%;
+}
+
+.box3 p {
+    color: #000000;
+    opacity: 70%;
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: white;
+    width: 334px;
+    height: 340px;  
+}
+
+.box4 h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 40%;
+}
+
+.box4 p {
+    color: #000000;
+    opacity: 70%;
+    margin: 3rem;
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: #F17949;
+    width: 334px;
+    height: 340px;  
+}
+
+.box5 h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 40%;
+}
+
+.box5 p {
+    color: #000000;
+    opacity: 70%;
+}
+
+.box6 {
+    grid-area: box6;
+    background-color: white;
+    width: 334px;
+    height: 340px;  
+}
+
+.box6 h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 40%;
+}
+
+.box6 p {
+    color: #000000;
+    opacity: 70%;
+}
+
+/************* FOOTER **************/
+
+.footer-container {
+    grid-area: footer;
+}
+
+.footer-top {
+    background-color: #A9A19E;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    position: relative;
+}
+
+.footer-top .img-footer {
+    position: absolute;
+    left: 49%;
+    top: 0.3rem;
+}
+
+.footer-top a {
+    text-decoration: none;
+    font-family: 'fira sans';
+    font-size: 1.063rem;
+    color: #000000;
+    opacity: 70%;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 340px;
+    background-color: #777574;
+    border: 1px black;
+}
+
+/*******************************/
