@@ -221,7 +221,7 @@ ul li:first-child a {
 
 .main-left h1 {
     color: white;
-    padding: 5rem;
+    margin: 5rem 5rem 3rem 7rem;
 }
 
 .main-left a {
@@ -233,13 +233,12 @@ ul li:first-child a {
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
     
 .main-right {
     width: 50%;
     height: 38.25rem;
-    padding: 6rem;
     line-height: 1.5rem;
     background-color: #A9A19E;
 
@@ -250,6 +249,8 @@ ul li:first-child a {
     font-size: 0.875rem;
     line-height: 1.5rem;
     color: rgba(0, 0, 0, 0.6);
+    margin: 6rem 7.5rem;
+
 }
 
 .main-bottom-container {
