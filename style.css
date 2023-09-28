@@ -60,6 +60,7 @@ p {
 
 a {
     font-family:'fira sans', sans-serif;
+    color: #000000;
     font-size: 0.9rem;
 }
 
@@ -95,7 +96,6 @@ a {
 
 .header-left a {
     text-decoration: none;
-    color: black;
     background-color: white;
     width: 8.2rem;
     height: 2.438rem;
@@ -186,10 +186,8 @@ ul li a {
     text-decoration: none;
     font-weight: 600;
     font-size: 0.75rem;
-    font-family: 'fira sans';
     margin: 3rem;
     opacity: 40%;
-    color: black;
 }
 
 ul li a:hover {
@@ -223,7 +221,6 @@ ul li a:hover {
 
 .main-left a {
     text-decoration: none;
-    color: black;
     background-color: white;
     width: 8.2rem;
     height: 2.438rem;
@@ -539,9 +536,7 @@ ul li a:hover {
 
 .footer-top a {
     text-decoration: none;
-    font-family: 'fira sans';
     font-size: 1.063rem;
-    color: #000000;
     opacity: 70%;
 }
 
