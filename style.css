@@ -194,6 +194,10 @@ ul li a:hover {
     text-decoration: underline;
 }
 
+ul li:first-child a {
+    opacity: 100%;
+}
+
 /********************************/
 
 /************* MAIN *************/
