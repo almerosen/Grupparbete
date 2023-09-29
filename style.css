@@ -213,6 +213,8 @@ ul li:first-child a {
     flex-wrap: wrap;
 }
 
+/********* main left ********/
+
 .main-left {
     width: 50%;
 }
@@ -240,6 +242,8 @@ ul li:first-child a {
     margin-top: 3.63rem;
 }
 
+/******** main right ********/
+
 .main-right {
     width: 50%;
 }
@@ -255,32 +259,7 @@ ul li:first-child a {
     margin-left: 5.75rem;
 }
 
-/************ MAIN BOTTOM *************/
-
-.main-bottom {
-    grid-area: main-bottom;
-    background-color: #FAB131;
-    width: 62.625rem;
-    height: 42.5rem;
-}
-
-.main-bottom h1 {
-    color: white;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-}
-
-.main-bottom p {
-   font-size: 0.875rem;
-   font-weight: 500; 
-   line-height: 1.25rem;
-   padding-bottom: 1rem;
-   color: rgba(0, 0, 0, 0.6);
-   margin: 0 17rem;
-   text-align: center;
-}
-
-/********* CARDS **********/
+/********* main cards **********/
 
 .cards-container {
     width: 100%;
@@ -380,40 +359,33 @@ ul li:first-child a {
     margin-top: 1rem;
 }
 
-
 /************ MAIN BOTTOM *************/
 
-.main-bottom-container {
-    grid-area: main-bottom;
-}
-
 .main-bottom {
+    grid-area: main-bottom;
     background-color: #FAB131;
     width: 62.625rem;
     height: 42.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .main-bottom h1 {
     color: white;
-    margin-top: 4rem;
+    margin-top: 13rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .main-bottom p {
    font-size: 0.875rem;
    font-weight: 500; 
    line-height: 1.25rem;
-   text-align: center;
+   padding-bottom: 1rem;
    color: rgba(0, 0, 0, 0.6);
    margin: 0 17.5rem;
-   padding-bottom: 1rem;
+   text-align: center;
 }
 
-/********** BOXES **************/
+/************** BOXES **************/
 
 .box1,
 .box2,
