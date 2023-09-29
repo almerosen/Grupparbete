@@ -249,26 +249,24 @@ ul li:first-child a {
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5rem; /* 171.429% */
+    line-height: 1.5rem;
     margin-top: 6.44rem;
     margin-right: 8.06rem;
     margin-left: 5.75rem;
 }
+
+/************ MAIN BOTTOM *************/
 
 .main-bottom {
     grid-area: main-bottom;
     background-color: #FAB131;
     width: 62.625rem;
     height: 42.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .main-bottom h1 {
     color: white;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -276,10 +274,10 @@ ul li:first-child a {
    font-size: 0.875rem;
    font-weight: 500; 
    line-height: 1.25rem;
-   padding: 1rem;
-   text-align: center;
+   padding-bottom: 1rem;
    color: rgba(0, 0, 0, 0.6);
    margin: 0 17rem;
+   text-align: center;
 }
 
 /********* CARDS **********/
