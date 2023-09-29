@@ -173,14 +173,12 @@ nav {
     height: 4.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 ul {
     display: flex;
     list-style: none;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 ul li a {
@@ -262,7 +260,7 @@ ul li:first-child a {
 /********* main cards **********/
 
 .cards-container {
-    width: 100%;
+    width: 62.625rem;
     margin-top: 7.06rem;
     display: flex;
     justify-content: center;
