@@ -230,6 +230,8 @@ ul li:first-child a {
 .main-left a {
     text-decoration: none;
     background-color: white;
+    font-size: 0.625rem;
+    font-weight: 700;
     width: 8.2rem;
     height: 2.438rem;
     display: flex;
