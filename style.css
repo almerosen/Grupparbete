@@ -73,7 +73,7 @@ a {
     grid-area: header-left;
     background-color: #C7DDEA;
     height: 34rem;
-    width: 100%;
+    width: 31.3125rem;
     position: relative;
 }
 
@@ -123,7 +123,7 @@ img.logo1 {
     grid-area: header-right-top;
     background-color: #F17949;
     height: 17rem;
-    width: 100%;
+    width: 31.3125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +145,7 @@ img.logo1 {
     grid-area: header-right-bottom;
     background-color: #FFB939;
     height: 17rem;
-    width: 100%;
+    width: 31.3125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +169,7 @@ img.logo1 {
 
 nav {
     grid-area: nav;
-    width: 100%;
+    width: 62.625rem;
     height: 4.5rem;
     display: flex;
     justify-content: center;
@@ -205,6 +205,8 @@ ul li:first-child a {
 
 .main-top-container {
     grid-area: main-top;
+    width: 62.625rem;
+    height: 38.25rem;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -254,7 +256,7 @@ ul li:first-child a {
 /********* MAIN CARDS **********/
 
 .cards-container {
-    width: 100%;
+    width: 62.625rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -362,7 +364,7 @@ ul li:first-child a {
 
 .main-bottom {
     background-color: #FAB131;
-    width: 100%;
+    width: 62.625rem;
     height: 42.5rem;
     display: flex;
     flex-direction: column;
@@ -372,18 +374,18 @@ ul li:first-child a {
 
 .main-bottom h1 {
     color: white;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
 }
 
 .main-bottom p {
    font-size: 0.875rem;
    font-weight: 500; 
    line-height: 1.25rem;
-   padding: 1rem;
    text-align: center;
    color: rgba(0, 0, 0, 0.6);
    margin: 0 17.5rem;
+   padding-bottom: 1rem;
 }
 
 /********** BOXES **************/
@@ -394,7 +396,7 @@ ul li:first-child a {
 .box4,
 .box5,
 .box6 {
-    width: 21.5rem;
+    width: 20.875rem;
     height: 21.25rem;
     display: flex;
     flex-direction: column;
@@ -510,7 +512,7 @@ ul li:first-child a {
 .footer-top {
     background-color: #A9A19E;
     height: 4.25rem;
-    width: 100%;
+    width: 62.625rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,12 +528,13 @@ ul li:first-child a {
 
 .footer-top a {
     text-decoration: none;
-    font-size: 1.063rem;
+    font-size: 1.0625rem;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.7);
 }
 
 .footer-bottom {
-    width: 100%;
+    width: 62.625rem;
     height: 21.25rem;
     background-color: #777574;
 }
