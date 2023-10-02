@@ -40,6 +40,7 @@ h2 {
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-size: 2.2rem;
     font-weight: 900;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 h3 {
@@ -366,16 +367,25 @@ ul li:first-child a {
     background-color: #FAB131;
     width: 62.625rem;
     height: 42.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-bottom h1 {
+.main-bottom-title {
     color: white;
-    margin-top: 13rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
+    width: 19.625rem;
+    height: 6.3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.38rem;
 }
 
-.main-bottom p {
+.main-bottom-text {
+    width: 27.625rem;
+    height: 17.5rem;
    font-size: 0.875rem;
    font-weight: 500; 
    line-height: 1.25rem;
@@ -383,6 +393,10 @@ ul li:first-child a {
    color: rgba(0, 0, 0, 0.6);
    margin: 0 17.5rem;
    text-align: center;
+}
+
+.main-bottom p {
+    margin-bottom: 1rem;
 }
 
 /************** BOXES **************/
@@ -395,24 +409,46 @@ ul li:first-child a {
 .box6 {
     width: 20.875rem;
     height: 21.25rem;
+    font-size: 1.063rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.box-align-number {
+    width: 6.25rem;
+    height: 6.25rem;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-align-text {
+    width: 20.875rem;
+    height: 7.0625rem;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.063rem;
-    text-align: center;
-    position: relative;
-    line-height: 1.25rem;
+    flex-direction: column;
 }
 
 .box1 {
     grid-area: box1;
     background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box1 h1 {
+    width: 19.625rem;
+    height: 6.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: rgba(0, 0, 0, 0.8);
     line-height: 2.813rem;
+    letter-spacing: -0.05625rem;
 }
 
 .box2 {
@@ -420,32 +456,9 @@ ul li:first-child a {
     background-color: #FFFFFF;
 }
 
- .box2 p {
-    margin: 4rem;
-    color: rgba(0, 0, 0, 0.7);
- }
-
-.box2 h2 {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: rgba(0, 0, 0, 0.4);
-}
-
 .box3 {
     grid-area: box3;
     background-color: #EBEBEB;
-}
-
-.box3 h2 {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.box3 p {
-    color: rgba(0, 0, 0, 0.7);
 }
 
 .box4 {
@@ -453,48 +466,14 @@ ul li:first-child a {
     background-color: white; 
 }
 
-.box4 h2 {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    opacity: 40%;
-}
-
-.box4 p {
-    color: rgba(0, 0, 0, 0.7);
-    margin: 3rem;
-}
-
 .box5 {
     grid-area: box5;
     background-color: #F17949; 
 }
 
-.box5 h2 {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.box5 p {
-    color: rgba(0, 0, 0, 0.7);
-}
-
 .box6 {
     grid-area: box6;
     background-color: white; 
-}
-
-.box6 h2 {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.box6 p {
-    color: rgba(0, 0, 0, 0.7);
 }
 
 /************* FOOTER **************/
